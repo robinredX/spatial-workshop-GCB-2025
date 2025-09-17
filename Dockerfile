@@ -5,10 +5,7 @@ ARG BASE_CONTAINER=$OWNER/minimal-notebook
 FROM $BASE_CONTAINER
 
 ARG JUPYTERHUB_VERSION=3.0.0
-LABEL maintainer="Spatial Domain Workshop <workshop@example.com>"
-
-# Fix: https://github.com/hadolint/hadolint/wiki/DL4006
-# Fix: https://github.com/koalaman/shellcheck/wiki/SC3014
+LABEL maintainer="Robin Khatri <robin.khatri@zmnh.uni-hamburg.de>"
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 USER root
