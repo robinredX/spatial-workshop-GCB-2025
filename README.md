@@ -12,7 +12,7 @@ We'll use a subset of Xenium kidney data from [Spatio-temporal interaction of im
 
 ### Session 1 - Introduction to spatial domain identification
 ### Session 2 - Methodological foundations
-### Session 3 - Preprocessing, implementation and evaluation metrics
-### Session 4 - Analysis and biological interpretation
+### Practical session 3 - Preprocessing, implementation and evaluation metrics
+### Practical session 4 - Analysis and biological interpretation
 
 
