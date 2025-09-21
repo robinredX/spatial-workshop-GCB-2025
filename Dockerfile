@@ -63,6 +63,9 @@ RUN pip install --no-cache-dir \
     "pingouin>=0.5.3"
 
 # Install packages without dependencies to avoid conflicts
+RUN pip install --no-cache-dir torch==2.7.1 -f https://download.pytorch.org/whl/torch_stable.html
+RUN pip install --no-cache-dir --upgrade typing_extensions
+RUN pip install torch_geometric==2.6.1
 RUN pip install --no-deps SOMENDER
 RUN pip install --no-deps nichepca
 
