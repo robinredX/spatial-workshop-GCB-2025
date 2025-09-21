@@ -1,4 +1,4 @@
-pip install --force-reinstall numba==0.62.0 llvmlite==0.45.0
+pip install --force-reinstall --ignore-installed numba==0.62.0 llvmlite==0.45.0
 pip install -r requirements.txt --ignore-installed
 pip install --no-cache-dir torch==2.7.1 -f https://download.pytorch.org/whl/torch_stable.html
 pip install --no-cache-dir --upgrade typing_extensions
