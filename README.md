@@ -14,9 +14,16 @@ We'll use two sets of data:
 
 There are three options to set up environment:
 
-1. Requirements are provided in `requirements.txt`. The following packages: MENDER and nichepca should be installed without dependencies to avoid conficts using `pip install --no-deps SOMENDER` and `pip install --no-deps nichepca` respectively.
+1. Requirements are provided in `requirements.txt`. The following packages need to installed seperately to avoid conflicts with dependencies:
+```
+pip install --no-cache-dir torch==2.7.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install --no-cache-dir --upgrade typing_extensions
+pip install torch_geometric==2.6.1
+pip install --no-deps SOMENDER
+pip install --no-deps nichepca
+```
 
-2. (Preferable) Create a conda environment and export it as a jupyterhub kernel, this can be done by running `bash create_kernel.sh`, or by running the following in terminal:
+3. (Preferable) Create a conda environment and export it as a jupyterhub kernel, this can be done by running `bash create_kernel.sh`, or by running the following in terminal:
 ```
 conda create -n st22_env python=3.11.6 -y
 source activate st22_env
@@ -24,7 +31,14 @@ pip install -r requirements.txt
 ipython kernel install --user --st22_kernel
 conda deactivate
 ```
-After this, create a new notebook with the jupyterhub kernel "st22_kernel" and install MENDER and nichePCA: `pip install --no-deps SOMENDER` and `pip install --no-deps nichepca`
+After this, refresh browser, create a new notebook with the jupyterhub kernel "st22_kernel" and install following packages:
+```
+pip install --no-cache-dir torch==2.7.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install --no-cache-dir --upgrade typing_extensions
+pip install torch_geometric==2.6.1
+pip install --no-deps SOMENDER
+pip install --no-deps nichepca
+```
 
 3. A dockerfile is also provided to setup everything.
 
