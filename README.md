@@ -31,7 +31,7 @@ pip install --no-deps nichepca
 conda create -n st22_env python=3.11.6 -y
 source activate st22_env
 pip install -r requirements.txt
-ipython kernel install --user --st22_kernel
+ipython kernel install --user --name st22_kernel
 conda deactivate
 ```
 After this, refresh browser, create a new notebook with the jupyterhub kernel "st22_kernel" and install following packages:
