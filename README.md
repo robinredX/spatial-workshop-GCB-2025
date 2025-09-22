@@ -13,6 +13,8 @@ We'll use two sets of data:
 1. Complete [ANCA-GN](https://unckidneycenter.org/kidneyhealthlibrary/glomerular-disease/anca-vasculitis/) Visium data from "Immune profiling-based targeting of pathogenic T cells with ustekinumab in ANCA-associated glomerulonephritis" ([Nature Communications, 2024](https://www.nature.com/articles/s41467-024-52525-w))
 2. A subset of Xenium kidney data from "[Spatio-temporal interaction of immune and renal cells determines glomerular crescent formation in autoimmune kidney disease](https://www.biorxiv.org/content/10.1101/2024.12.18.629206v1)" (bioRxiv, 2024)
 
+Kidney single-cell data: https://www.kidneycellatlas.org (may need to rename cell type column)
+
 ## Environments
 
 There are three options to set up environment:
