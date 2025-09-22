@@ -6,6 +6,9 @@ This workshop will focus on computational approaches for identifying and charact
 As ST data is increasingly used in research due to the benefit of in-situ identification of transcripts and cells, several computational approaches for spatial domain identification have been developed. In this workshop, participants will learn methods for unsupervised detection of spatial domains with distinct molecular signatures and understand techniques for biological interpretation of spatial domains along with associated caveats. Through hands-on tutorials, participants will learn about and apply state-of-the-art domain identification algorithms to real spatial transcriptomics datasets.
 
 ## Data
+
+Google drive folder: https://drive.google.com/drive/folders/1sQFh7em-YoNFgi3Ah9C2aWTtK1Y4Gli4?usp=sharing
+
 We'll use two sets of data:
 1. Complete [ANCA-GN](https://unckidneycenter.org/kidneyhealthlibrary/glomerular-disease/anca-vasculitis/) Visium data from "Immune profiling-based targeting of pathogenic T cells with ustekinumab in ANCA-associated glomerulonephritis" ([Nature Communications, 2024](https://www.nature.com/articles/s41467-024-52525-w))
 2. A subset of Xenium kidney data from "[Spatio-temporal interaction of immune and renal cells determines glomerular crescent formation in autoimmune kidney disease](https://www.biorxiv.org/content/10.1101/2024.12.18.629206v1)" (bioRxiv, 2024)
